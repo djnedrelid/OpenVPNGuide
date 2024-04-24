@@ -1,5 +1,5 @@
 # En Rask, Enkel og Praktisk OpenVPN Guide
-Oppsett av OpenVPN for sikker fjerntilgang av nettverk, f.eks. hjem til jobb.  
+Oppsett av OpenVPN for sikker fjerntilgang jeg satte opp for hjem/jobb nettverk.  
 Kan enkelt utvides til site-to-site, ved å kjøre oppsettet begge veier.  
   
 Denne guiden er laget for, og testet i, rene Microsoft Windows miljøer,  
