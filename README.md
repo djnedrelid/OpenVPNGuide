@@ -43,7 +43,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
  
 5. Tilpass .ovpn klient og server med bl.a. riktig vert, port og ønsket subnet.  
    Plasser klient.ovpn i %userprofile%\OpenVPN\config hos klient.  
-   Plasser server.ovpn i %programfiles%\OpenVPN\config-auto  
+   Plasser server.ovpn i %programfiles%\OpenVPN\config-auto på server.  
    (Sjekk at OpenVPN tjenesten starter automatisk via services.msc)  
  
  
