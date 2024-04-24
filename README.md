@@ -51,7 +51,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    F.eks. c:\> route -p add 10.8.0.0 mask 255.255.255.0 LAN-IP.til.vpn.server  
   
    (Dette gjøres i stedet for felles statisk rute i LAN'ets router, for å unngå  
-	problematikk og ekstra trafikk iht. pakke/ICMP redirects kan/vil oppstå når  
+	problematikk og ekstra trafikk iht. pakke/ICMP redirects som kan/vil oppstå når  
 	server.ovpn kjører på en IP under samme subnet som maskiner som skal nås.)  
  
  
