@@ -24,7 +24,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    (PEM = tilkoblingspassord. Tilpass "askpass" argumentet i server.ovpn)  
    
    \# openssl dhparam -out dh2048.pem 2048    // Putt i &lt;dh> taggen i server.ovpn  
-   \# openvpn --genkey tls-auth ta.key        // Putt i &lt;tls-auth> i begge filer.  
+   \# openvpn --genkey tls-auth ta.key        // Putt i &lt;tls-auth> i alle ovpn.  
    
    **PER KLIENT:**
    \# ./easyrsa build-client-full klient1  
