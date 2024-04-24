@@ -15,7 +15,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
  
 2. Fra C:\Program Files\OpenVPN\easy-rsa (CMD som Administrator):  
    
-   c:\> EasyRSA-start.bat  
+   c:\\> EasyRSA-start.bat  
    \# ./easyrsa init-pki  
    \# ./easyrsa build-ca  
    
@@ -48,7 +48,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
  
  
 6. Sett statiske ruter for retur-trafikk, direkte på maskiner du skal ha kontakt med.  
-   F.eks. c:\> route -p add 10.8.0.0 mask 255.255.255.0 LAN-IP.til.vpn.server  
+   F.eks. c:\\> route -p add 10.8.0.0 mask 255.255.255.0 LAN-IP.til.vpn.server  
   
    (Dette gjøres i stedet for felles statisk rute i LAN'ets router, for å unngå  
 	problematikk og ekstra trafikk iht. pakke/ICMP redirects som kan/vil oppstå når  
