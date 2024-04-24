@@ -26,7 +26,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    \# openssl dhparam -out dh2048.pem 2048    // Putt i &lt;dh> taggen i server.ovpn  
    \# openvpn --genkey tls-auth ta.key        // Putt i &lt;tls-auth> i både server/klient.ovpn.  
    
-   **PER KLIENT:**
+   **PER KLIENT:**  
    \# ./easyrsa build-client-full klient1  
 
 	Avslutt shellet.  
