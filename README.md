@@ -47,7 +47,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    (Sjekk at OpenVPN tjenesten starter automatisk via services.msc)  
  
  
-6. Sett statiske ruter tilbake, direkte på maskiner du skal ha kontakt med.  
+6. Sett statiske ruter for retur-trafikk, direkte på maskiner du skal ha kontakt med.  
    F.eks. c:\> route -p add 10.8.0.0 mask 255.255.255.0 LAN-IP.til.vpn.server  
   
    (Dette gjøres i stedet for felles statisk rute i LAN'ets router, for å unngå  
