@@ -41,7 +41,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    Sjekk med: Get-NetIPInterface | Select-Object InterfaceAlias,AddressFamily,Forwarding  
  
  
-5. Tilpass .ovpn klient og server med bl.a. riktig remote, ønsket subnet og port.  
+5. Tilpass .ovpn klient og server med bl.a. riktig vert, port og ønsket subnet.  
    Plasser klient.ovpn i %userprofile%\OpenVPN\config hos klient.  
    Plasser server.ovpn i %programfiles%\OpenVPN\config-auto  
    (Sjekk at OpenVPN tjenesten starter automatisk via services.msc)  
