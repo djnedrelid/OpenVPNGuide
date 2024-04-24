@@ -23,11 +23,11 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    \# ./easyrsa build-server-full server1  
    (PEM = tilkoblingspassord. Tilpass "askpass" argumentet i server.ovpn)  
    
-   **PER KLIENT:**
-   \# ./easyrsa build-client-full klient1  
-     
    \# openssl dhparam -out dh2048.pem 2048    // Putt i &lt;dh> taggen i server.ovpn  
    \# openvpn --genkey tls-auth ta.key        // Putt i &lt;tls-auth> i begge filer.  
+   
+   **PER KLIENT:**
+   \# ./easyrsa build-client-full klient1  
 
 	Avslutt shellet.  
  
