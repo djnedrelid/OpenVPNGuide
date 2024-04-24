@@ -29,7 +29,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    \# openssl dhparam -out dh2048.pem 2048    // Putt i <dh> taggen i server.ovpn  
    \# openvpn --genkey tls-auth ta.key        // Putt i <tls-auth> i begge filer.  
 
-	Avslutt shellet.
+	Avslutt shellet.  
  
  
 3. Finn innholdet i genererte filer under samme mappe og lim det inn mellom  
