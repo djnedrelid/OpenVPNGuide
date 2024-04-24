@@ -1,6 +1,6 @@
 # En Rask, Enkel og Praktisk OpenVPN Guide
 Oppsett av OpenVPN for sikker fjerntilgang jeg satte opp for hjem/jobb nettverk.  
-Kan enkelt utvides til site-to-site, ved å kjøre oppsettet begge veier.  
+Kan enkelt utvides til site-to-site, ved å kjøre oppsettet begge veier (testet OK).  
   
 Denne guiden er laget for, og testet i, rene Microsoft Windows miljøer,  
 hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.  
