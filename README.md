@@ -13,7 +13,7 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    (For generering av sertifikater m.m. og automatisk serveroppstart.)  
  
  
-2. Fra C:\Program Files\OpenVPN\easy-rs (CMD som Administrator):  
+2. Fra C:\Program Files\OpenVPN\easy-rsa (CMD som Administrator):  
    
    c:\> EasyRSA-start.bat  
    \# ./easyrsa init-pki  
@@ -26,8 +26,8 @@ hvor server.ovpn kjører på en dedikert maskin i nettverket som skal nås.
    **PER KLIENT:**
    \# ./easyrsa build-client-full klient1  
      
-   \# openssl dhparam -out dh2048.pem 2048    // Putt i <dh> taggen i server.ovpn  
-   \# openvpn --genkey tls-auth ta.key        // Putt i <tls-auth> i begge filer.  
+   \# openssl dhparam -out dh2048.pem 2048    // Putt i &lt;dh> taggen i server.ovpn  
+   \# openvpn --genkey tls-auth ta.key        // Putt i &lt;tls-auth> i begge filer.  
 
 	Avslutt shellet.  
  
